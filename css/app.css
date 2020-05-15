@@ -17,7 +17,7 @@ body {
 }
 
 body {
-    background: #05e6e6 url('../img/geometry2.png');
+    background: #ffffff url('../img/geometry2.png');
     /* Background pattern from Subtle Patterns */
     font-family: 'Coda', cursive;
 }
@@ -217,6 +217,7 @@ p.success {
     float: right;
 }
 
+
 .menu-wrap {
     position: fixed;
     top: 0;
@@ -240,9 +241,9 @@ p.success {
     top: 0;
     left: 0;
     z-index: 1;
-    width: 60px;
-    height: 60px;
-    padding: 1rem;
+    width: 80px;
+    height: 80px;
+    padding: 0.5rem;
     background: var(--primary-color);
     display: flex;
     align-items: center;
@@ -254,8 +255,8 @@ p.success {
     position: relative;
     flex: none;
     width: 100%;
-    height: 2px;
-    background: rgb(17, 194, 248);
+    height: 10px;
+    background: rgb(6, 253, 68);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -270,7 +271,7 @@ p.success {
     z-index: 1;
     top: -10px;
     width: 100%;
-    height: 2px;
+    height: 10px;
     background: inherit;
   }
   
@@ -346,9 +347,9 @@ p.success {
   }
   
   .menu-wrap .menu > div > div > ul > li {
-    list-style: none;
-    color: #fff;
-    font-size: 1.5rem;
+    list-style: armenian;
+    color: #fffffffd;
+    font-size: 1.3rem;
     padding: 1rem;
   }
   
@@ -357,3 +358,4 @@ p.success {
     text-decoration: none;
     transition: color 0.4s ease;
   }
+  
